@@ -14,8 +14,8 @@ provides=("$_pkgname")
 conflicts=("$_pkgname")
 sha256sums_i686=('ab6e49beedbd74f50b27fb6443e7174b9b5c6872328913faf426827466ff48d1')
 sha256sums_x86_64=('f3d63e9353ba18944e3aeeaf550f74e8112cdba721fca312b771faf179b57863')
-source_i686=("${_pkgname}-${pkgver}_i686.deb::https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian32.deb?version=${pkgver}")
-source_x86_64=("${_pkgname}-${pkgver}_x86_64.tar.xz::https://www.ocenaudio.com/downloads/index.php/ocenaudio_archlinux.pkg.tar.xz?version=${pkgver}")
+source_i686=("${_pkgname}-${pkgver}_i686.deb::https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian32.deb?version=v${pkgver}")
+source_x86_64=("${_pkgname}-${pkgver}_x86_64.tar.xz::https://www.ocenaudio.com/downloads/index.php/ocenaudio_archlinux.pkg.tar.xz?version=v${pkgver}")
 
 build() {
   echo "ocenaudio "$pkgver
